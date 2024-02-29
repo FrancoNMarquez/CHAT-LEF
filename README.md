@@ -14,6 +14,10 @@ Para ejecutar la parte de obtener la transcripción a texto de cada video de cad
 Para ejecutar la parte de depurar la transcripción obtenida use el código  **TF_depurarr_txt.ipynb**.
 
 
+## TF_depurarTF__juntar_textos_fragmentar
+Para ejecutar la parte de union de todos los archivos txt  **TF__juntar_textos_fragmentar.ipynb**.
+
+
 ## TF_Costos_Embeddings
 Para ejecutar la parte de vectorizar (previo a juntar cada transcripción individual en un sólo archivo), almacenar los vectores en Pinecone y estimar el costo del uso de OpenIA use el código  **TF_Costos_Embeddings.ipynb**.
 
