@@ -5,21 +5,21 @@ Este repositorio contiene códigos y archivos adicionales para el Asistente Virt
 
 
  ## TF1
- Colab unificado TF1.ipynb.
+ Colab unificado **TF1.ipynb**.
  ## TF_obtener_txt
-Para ejecutar la parte de obtener la transcripción a texto de cada video de cada clase use el código  TF_obtener_txt.ipynb.
+Para ejecutar la parte de obtener la transcripción a texto de cada video de cada clase use el código  **TF_obtener_txt.ipynb**.
 
 
 ## TF_depurarr_txt
-Para ejecutar la parte de depurar la transcripción obtenida use el código  TF_depurarr_txt.ipynb.
+Para ejecutar la parte de depurar la transcripción obtenida use el código  **TF_depurarr_txt.ipynb**.
 
 
 ## TF_Costos_Embeddings
-Para ejecutar la parte de vectorizar (previo a juntar cada transcripción individual en un sólo archivo), almacenar los vectores en Pinecone y estimar el costo del uso de OpenIA use el código  TF_Costos_Embeddings.ipynb.
+Para ejecutar la parte de vectorizar (previo a juntar cada transcripción individual en un sólo archivo), almacenar los vectores en Pinecone y estimar el costo del uso de OpenIA use el código  **TF_Costos_Embeddings.ipynb**.
 
 
 ## TF_Conectar_CHATLEF
-Para ejecutar la parte de concetarse a Pinecone para vincular los vectores allí alojados y usar Chatlef en el entorno de Colab con una interfaz dentro de dicho entorno use el código  TF_Conectar_CHATLEF.ipynb.
+Para ejecutar la parte de concetarse a Pinecone para vincular los vectores allí alojados y usar Chatlef en el entorno de Colab con una interfaz dentro de dicho entorno use el código  **TF_Conectar_CHATLEF.ipynb**.
 
 
 ## Que puedes consultar a este Chatlef (si usas tus datos será lo que esos datos tengan)
