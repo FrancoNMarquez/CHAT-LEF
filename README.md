@@ -14,7 +14,7 @@ Para ejecutar la parte de obtener la transcripción a texto de cada video de cad
 Para ejecutar la parte de depurar la transcripción obtenida use el código  **TF_depurarr_txt.ipynb**.
 
 
-## TF_depurarTF__juntar_textos_fragmentar
+## TF__juntar_textos_fragmentar
 Para ejecutar la parte de union de todos los archivos txt  **TF__juntar_textos_fragmentar.ipynb**.
 
 
