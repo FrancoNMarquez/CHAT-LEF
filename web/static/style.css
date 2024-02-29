@@ -54,9 +54,12 @@
     flex: 1;
     
     padding: 10px;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido supera la altura máxima */
+    max-height: 70vh; /* Establece una altura máxima para el área de chat */
+  
   }
   .msger-chat::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
   }
   .msger-chat::-webkit-scrollbar-track {
     background: #ddd;
@@ -83,7 +86,7 @@
     border-radius: 50%;
   }
   .msg-bubble {
-    max-width: 450px;
+    max-width: 900px;/*450*/
     padding: 15px;
     border-radius: 15px;
     background: var(--left-msg-bg);
@@ -145,8 +148,76 @@
   .msger-send-btn:hover {
     background: rgb(0, 180, 50);
   }
-  
-  .msger-chat {
-    background-color: #fcfcfe;
-    background-image: url("");
+  .msger-audio-btn {
+    margin-left: 10px;
+    background: rgb(0, 196, 65);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.23s;
   }
+  .msger-audio-btn:hover {
+    background: rgb(0, 180, 50);
+  }
+  
+    
+  .msger-chat {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido supera la altura máxima */
+    max-height: 400px; /* Establece una altura máxima para el área de chat */
+  }
+
+
+
+  .btn-record {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+   background: rgb(0, 196, 65);
+    
+}
+/*.btn-record:hover {
+  background: rgb(0, 180, 50);
+}*/
+
+.btn-record-green {
+    background-color: #12d338;
+}
+
+.btn-record-red {
+    background-color: #dc3545;
+}
+
+.btn-record img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.record-spinner {
+    color: white;
+    width: 30px;
+    height: 30px
+}
+
+.mic-img {
+    width: 30px;
+}
+  
+.voz-container {
+  display: flex; /* Establece el contenedor como un flex container */
+  justify-content: center; /* Alinea horizontalmente los elementos */
+}
+
+.voz-label {
+  font-size: 14px; /* Ajusta el tamaño de la fuente según sea necesario */
+  margin-right: 1px; /* Espacio entre el texto y el checkbox */
+}
+
+.voz-checkbox {
+  margin-left: 1px; /* Espacio entre el checkbox y otros elementos */
+}

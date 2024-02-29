@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAT-LEF</title>
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="icon" href="static/image/favicon.ico" type="x-icon">
+</head>
+</head>
+
+<body>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i class="fas fa-comment-alt"></i> CHATLEF Asistente virtual de Cursos de IA
+      </div>
+      <div class="msger-header-options">
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+
+    <main class="msger-chat" id="chat-area"> </main>
+
+    <form class="msger-inputarea">
+      <input type="text" id="messageInput" class="msger-input" placeholder="Escribe tu pregunta...">
+      <button type="submit" class="msger-send-btn" id="enviar">Enviar</button>
+      <button type="button" class="btn-record btn-record-green" id="record1" onclick="record()">
+        <img class="mic-img" src="static/image/microphone.png" />
+      </button>
+      <button type="button" class="btn-record btn-record-red" id="stop1" onclick="stop()" style="display:none">
+        <img class="mic-img" id="record-stop-label" src="static/image/microphone.png" />
+        <span id="record-stop-loading" style="display: none"><span
+            class="spinner-border spinner-border-sm record-spinner" role="status" aria-hidden="true"></span></span>*/
+      </button>
+      <div class="voz-container">
+        <label for="vozCheckbox" class="voz-label">Voz</label> <!-- Etiqueta del checkbox -->
+        <input type="checkbox" id="vozCheckbox" class="voz-checkbox">
+        <!-- Checkbox para la opción de respuesta con voz -->
+      </div>
+
+      <div class="col-12 text-center mt-2">
+        <div id="text"></div>
+      </div>
+    </form>
+  </section>
+  
+  
+  <script src="static/script.js"></script>
+
+
+
+  <script type="text/javascript">
+    recorder("/audio", response => {
+      document.getElementById("record1").style.display = "";
+      document.getElementById("stop1").style.display = "none";
+      if (!response || response == null) {
+        console.log("No response");
+        return;
+      }
+
+      document.getElementById("messageInput").value = response.text;
+      document.getElementById("enviar").click(); // activo el click para que se envie        if (typeof response.file !== "undefined") {
+      //Reproducir el audio que regreso Python (si existe)
+      
+      /*audioFile = response.file;
+      let audio = new Audio();
+      audio.setAttribute("src", "static/" + audioFile);
+      audio.play();*/
+
+    });
+  </script>
+
+
+</body>
+
+</html>
