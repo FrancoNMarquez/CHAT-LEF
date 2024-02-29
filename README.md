@@ -1,9 +1,12 @@
 
+
 # Asistente virtual Chatlef
-Este repositorio contiene códigos y archivos adicionales para el Asistente Virtual Chatlef. Está organizado para que pueda ejecutar directamente Chatlef accediendo a la carpeta web y siguiendo las indicaciones en su README. Por otro lado, si quiere ejecutar todo el proceso de carga de datos, limpieza y depuración hasta la vectorización y el alojamiento de los vestores en Pinecone, siga el código en TF1.ipynb. Tenga en cuenta que el acceso a los archivos para la ejecución desde Colab requiere el path adecuado según usted guarde los archivos a procesar (sugerimos crear una carpeta espacífica en Drive). Los archivos que se han usado como entrada de datos y los que se han generado en cada etapa del proceso están en la carpeta txt. Tenga en cuenta también que necesitará de un archivo .env con su api.key de OpenIA y de Pinecone. Si desea correr por etapas cada uno de los pasos en los que se desarrolló este trabajo, puede seguir el orden que se indica a continuación.
+Este repositorio contiene códigos y archivos adicionales para el Asistente Virtual Chatlef. Está organizado para que pueda ejecutar directamente Chatlef accediendo a la carpeta **web** y siguiendo las indicaciones en su **README**. Por otro lado, si quiere ejecutar todo el proceso de carga de datos, limpieza y depuración hasta la vectorización y el alojamiento de los vestores en Pinecone, siga el código en **TF1.ipynb**. Tenga en cuenta que el acceso a los archivos para la ejecución desde Colab requiere el path adecuado según usted guarde los archivos a procesar (sugerimos crear una carpeta espacífica en Drive). Los archivos que se han usado como entrada de datos y los que se han generado en cada etapa del proceso están en la carpeta txt. Tenga en cuenta también que necesitará de un archivo .env con su api.key de OpenIA y de Pinecone. Si desea correr por etapas cada uno de los pasos en los que se desarrolló este trabajo, puede seguir el orden que se indica a continuación.
 
 
-## TF_obtener_txt
+ ## TF1
+ Colab unificado TF1.ipynb.
+ ## TF_obtener_txt
 Para ejecutar la parte de obtener la transcripción a texto de cada video de cada clase use el código  TF_obtener_txt.ipynb.
 
 
