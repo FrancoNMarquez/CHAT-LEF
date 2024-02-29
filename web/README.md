@@ -6,7 +6,8 @@ Este repositorio es el código para el Asistente Virtual Chatlef
 ## Configuración
 Para ejecutar el proyecto es necesario:
 - Descargar el repositorio
-- Opcional: Crea un ambiente virtual
+- Opcional: Crea un ambiente virtual es aconsejable que lo hagas
+	 	```  python -m venv env ```
 - Instala las dependencias ejecutando 
 	- ```  pip install -r requirements.txt ```
 - Crea un archivo llamado ```.env```
@@ -17,8 +18,10 @@ Para ejecutar el proyecto es necesario:
 
 
 ## Ejecución
-- Este proyecto utiliza Flask. Puedes levantar el servidor en modo debug por defecto en el puerto 5000 con el comando
-	- ```flask --app app run --debug```
+- Abre el terminal de tu editor y ejecuta el comando
+- ```python app.py```
+- Este proyecto utiliza Flask. Puedes levantar el servidor en modo debug por 	defecto en el puerto 5000 con el comando
+	- ```flask --app app run --debug``` 
 	- En tu navegador ve a http://localhost:5000
 	- Aparecera la aplicacion y lo utilizas como si fuera un chat
 	- Tildando el la opcion voz , chatlef te contestara
