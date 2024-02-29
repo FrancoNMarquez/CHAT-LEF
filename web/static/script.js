@@ -143,7 +143,8 @@ function enviarTextoVoz(texto) {
       audio.play();
       
       // Reproducir el audio
-      
+     
+
     }
   })
   .catch(error => {
@@ -151,7 +152,6 @@ function enviarTextoVoz(texto) {
     console.error('Error:', error);
   });
 }
-
 
 
 

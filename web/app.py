@@ -32,8 +32,12 @@ vector_store=Pinecone.from_existing_index(indice,embedding)
 
 from langchain.chains import ConversationalRetrievalChain  # lo usamos para hacer una convesasion parecida a chat gpt
 from langchain_openai import ChatOpenAI
-llm1=ChatOpenAI(model="gpt-3.5-turbo",temperature=1)
+# ChatOpenAI: Genera respuestas basadas en el contexto de la conversación utilizando el modelo de lenguaje GPT.
+llm1 = ChatOpenAI(model="gpt-3.5-turbo", temperature=1)
+#llm1=ChatOpenAI(model="gpt-3.5-turbo-0613",temperature=1)
+# vector_store: Almacena vectores representativos de las consultas para facilitar la recuperación de información relevante durante una conversación.
 retriever=vector_store.as_retriever(search_type="similarity",search_kwargs={"k":3}) # modelo de recuperacion de la consulta
+# ConversationalRetrievalChain: Gestiona la lógica de la conversación y coordina entre el modelo de lenguaje y el recuperador de consultas.
 crc=ConversationalRetrievalChain.from_llm(llm=llm1,retriever=retriever)
 memoria=[]
 
