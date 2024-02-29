@@ -10,7 +10,7 @@ Para ejecutar el proyecto es necesario:
 - Instala las dependencias ejecutando 
 	- ```  pip install -r requirements.txt ```
 - Crea un archivo llamado ```.env```
-	- En el archivo coloca las llaves. Para el proyecto tal cual del video (y este repositorio) estoy utilizando:
+	- En el archivo coloca las llaves.
 	- ```OPENAI_API_KEY=XXXXXX```
 	- ```PINECONE_API_KEY=XXXXXX```
 	- ```PINECONE_ENV="gcp-starter"```
@@ -22,7 +22,7 @@ Para ejecutar el proyecto es necesario:
 	- En tu navegador ve a http://localhost:5000
 	- Aparecera la aplicacion y lo utilizas como si fuera un chat
 	- Tildando el la opcion voz , chatlef te contestara
-	- Para poder usar el microfono das clik y se colocará en rojo significa
+	- Para poder usar el microfono das click y se colocará en rojo significa
 	  que esta grabando, cuando termines vuelve a dar click y se enviara tu consulta
 	
 ## Que puedes consultar
