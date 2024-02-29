@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -32,7 +32,7 @@
       <button type="button" class="btn-record btn-record-red" id="stop1" onclick="stop()" style="display:none">
         <img class="mic-img" id="record-stop-label" src="static/image/microphone.png" />
         <span id="record-stop-loading" style="display: none"><span
-            class="spinner-border spinner-border-sm record-spinner" role="status" aria-hidden="true"></span></span>*/
+            class="spinner-border spinner-border-sm record-spinner" role="status" aria-hidden="true"></span></span>
       </button>
       <div class="voz-container">
         <label for="vozCheckbox" class="voz-label">Voz</label> <!-- Etiqueta del checkbox -->
@@ -62,13 +62,7 @@
 
       document.getElementById("messageInput").value = response.text;
       document.getElementById("enviar").click(); // activo el click para que se envie        if (typeof response.file !== "undefined") {
-      //Reproducir el audio que regreso Python (si existe)
       
-      /*audioFile = response.file;
-      let audio = new Audio();
-      audio.setAttribute("src", "static/" + audioFile);
-      audio.play();*/
-
     });
   </script>
 
