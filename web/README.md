@@ -34,3 +34,19 @@ Para ejecutar el proyecto es necesario:
 	- algunos datos como correo para cotactarse con los alumnos del curso
     - la idea que te ayude a refrescar todo lo que necesites del curso
 
+
+
+## Créditos
+Este proyecto fue creado por:
+
+- **Luis Maria Nowak**
+
+- **Franco Marquez**
+
+- **Eduardo Priotti**
+
+Curso Inteligencia Artifial Dictado por el IFES, Neuquén, Argentina.
+
+Duración 1 año - Ciclo 2023.
+
+Profesor: Gustavo Cabrera
