@@ -33,15 +33,10 @@ Para ejecutar la parte de concetarse a Pinecone para vincular los vectores allí
     - la idea que te ayude a refrescar todo lo que necesites del curso
 
 ## Créditos
-
 Este proyecto fue creado por:
-
-**-Luis Maria Nowak
-
--Franco Marquez
-
--Eduardo Priotti**
-
+							-Luis Maria Nowak
+							-Franco Marquez
+							-Eduardo Priotti
 
 Curso Inteligencia Artifial Dictado por el IFES, Neuquen, Argentina.
 
