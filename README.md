@@ -41,8 +41,8 @@ Este proyecto fue creado por:
 
 - **Eduardo Priotti**
 
-Curso Inteligencia Artifial Dictado por el IFES, Neuquen, Argentina.
+Curso Inteligencia Artifial Dictado por el IFES, Neuquén, Argentina.
 
-Duracion 1 año - Ciclo 2023.
+Duración 1 año - Ciclo 2023.
 
 Profesor: Gustavo Cabrera
