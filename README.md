@@ -35,8 +35,11 @@ Para ejecutar la parte de concetarse a Pinecone para vincular los vectores allí
 ## Créditos
 
 Este proyecto fue creado por:
+
 	-  **Luis Maria Nowak**
+
 	-  **Franco Marquez**
+	
 	-  **Eduardo Priotti**
 
 
